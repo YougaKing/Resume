@@ -3,7 +3,7 @@
 
 在线地址：[https://yougaking.github.io/Resume/](https://yougaking.github.io/Resume/)
 
-关于我
+个人简历
 ---
 
 # 联系方式
@@ -64,6 +64,7 @@
 * EditText Keyboard 未解之谜 总结EditText弹起Keyboard相关的知识，分析 部分机型无法正确弹起Keyboard的原因
 * 农历的那些事儿 程序猿需要懂得的农历知识，了解农历的由来，程序猿需要懂得的农历知识
 * 贪吃蛇大作战-刷分-反编译 http/https请求抓包，分析.so文件库的安全，汇编工具IDA Pro使用
+
 ---
 
 # 技能清单
