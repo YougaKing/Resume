@@ -49,28 +49,32 @@
 
 影楼全掌控app（为影楼老板提供业绩统计、考勤统计、订单渠道统计等功能）, 三秦全搜索app(网络抓取设置的关键字，筛选负面新闻推送，提供各给陕西各县 行政官员使用)。
 
-开源项目和作品
+---
 
-开源项目
+# 开源项目和作品
 
-DragRecyclerView：RecyclerView 加载更多，可搭配SwipeRefreshLayout 下拉刷新，支持EmptyView loading error 图片文字可自定义，支持 LinearLayoutManager GridLayoutManager StaggeredGridLayoutManager。
+## 开源项目
 
-ImageSelector：适配android 7.0权限，支持拍照.相册选择.图片裁剪
+* DragRecyclerView：RecyclerView 加载更多，可搭配SwipeRefreshLayout 下拉刷新，支持EmptyView loading error 图片文字可自定义，支持 LinearLayoutManager GridLayoutManager StaggeredGridLayoutManager。
+* ImageSelector：适配android 7.0权限，支持拍照.相册选择.图片裁剪
 
-技术文章
+## 技术文章
 
-android调用系统相机拍照总结调用系统相机的知识，文件操作所需权限，解决AndroidNougat所引起的BUG
-EditText Keyboard 未解之谜 总结EditText弹起Keyboard相关的知识，分析 部分机型无法正确弹起Keyboard的原因
-农历的那些事儿 程序猿需要懂得的农历知识，了解农历的由来，程序猿需要懂得的农历知识
-贪吃蛇大作战-刷分-反编译 http/https请求抓包，分析.so文件库的安全，汇编工具IDA Pro使用
-技能清单
+* android调用系统相机拍照总结调用系统相机的知识，文件操作所需权限，解决AndroidNougat所引起的BUG
+* EditText Keyboard 未解之谜 总结EditText弹起Keyboard相关的知识，分析 部分机型无法正确弹起Keyboard的原因
+* 农历的那些事儿 程序猿需要懂得的农历知识，了解农历的由来，程序猿需要懂得的农历知识
+* 贪吃蛇大作战-刷分-反编译 http/https请求抓包，分析.so文件库的安全，汇编工具IDA Pro使用
+---
 
-Android开发框架：butterknife/dagger/retrofit2/okhttp/rxjava/gson/glide/Picasso
-开发工具：Eclipse/AndroidStudio
-数据库相关：SQLite
-版本管理、文档和自动化部署工具：Svn/Git
-单元测试：junit/mockito/espresso
-云和开放平台：微信支付分享/高德地图服务/Umeng统计/Jpush推送/支付宝支付/优酷视频播放/淘宝（阿里妈妈）商城
+# 技能清单
+
+* Android开发框架：butterknife/dagger/retrofit2/okhttp/rxjava/gson/glide/Picasso
+* 开发工具：Eclipse/AndroidStudio
+* 数据库相关：SQLite
+* 版本管理、文档和自动化部署工具：Svn/Git
+* 单元测试：junit/mockito/espresso
+* 云和开放平台：微信支付分享/高德地图服务/Umeng统计/Jpush推送/支付宝支付/优酷视频播放/淘宝（阿里妈妈）商城
+
 致谢
 
 感谢您花时间阅读我的简历，期待能有机会和您共事。
