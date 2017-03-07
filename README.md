@@ -1,13 +1,7 @@
 简介
 ---
 
-在线地址：[http://cody1991.github.io/aboutme](http://cody1991.github.io/aboutme)
-
-英文版暂停更新。
-
-欢迎Clone此项目来构建你自己的在线简历，GitHub Pages的使用可移步到我的博客文章[GitHub Pages Introduction](http://cody1991.github.io/github/2015/04/04/github-pages-introduction.html)。
-
----
+在线地址：[https://yougaking.github.io/Resume/](https://yougaking.github.io/Resume/)
 
 关于我
 ---
