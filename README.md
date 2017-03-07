@@ -6,7 +6,7 @@
 关于我
 ---
 
-我是来自深圳的前端开发工程师，2014年的中山大学软件工程本科毕业生，2014年4月份开始第一份前端开发工作，至今已经有两年多前端开发经验。
+我是来自西安的Android开发工程师，2014年12月份开始第一份Android开发工作，至今已经有两年多Android开发经验。
 
 有着坚实的前端开发基础，并且一直保持对新技术的学习热情。熟练使用HTML5、CSS3以及JavaScript(jQuery,Zepto)；对流行的前端开发框架，比如Bootstrap3和Foundation5都有实际开发项目；能熟练使用前端开发工具，比如Gulp.js、Seajs、webpack和Less等等；学习了AngularJS和React，但更加喜欢轻巧、高性能、可组件化的MVVM框架Vue.js，并在实际的开发项目中使用；学习了Node.js(Express)、ECMAScript6，MongoDB等技术，希望在往后的开发项目中得到实践提升。这里是 [自己的前端开发记录](https://github.com/cody1991/learn) 。后面也有新的前端开发实习生加入团队，锻炼了一定的管理能力。
 
