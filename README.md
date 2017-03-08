@@ -34,17 +34,28 @@ WEBSITE
 
 ### 结婚小秘书-Android客户端
 
-* 项目描述：结婚小秘书是为婚纱影楼行业客户服务，提供订单展示、进度通知、服务评价、婚姻登记处查询、喜帖/微相册制作分享，婚庆话题讨论、婚品购买，婚礼事宜流程、酒店预订等各项服务。
-* 项目职责：项目从零开始到版本迭代，个人全权负责Android客户端的开发。
-* 技术要点：项目中集成自建商城、婚庆话题社区、阿里妈妈婚品商城、优酷视屏播放，Jpush推送、Umeng统计、微信分享、支付宝/微信支付躬耕，amap高德地图定位服务、 zxing扫码。SQLite本地保存数据,项目适配android7.0权限。
-* 项目收获：不断重构解决项目需求变动频繁留下大量冗余代码,和同事沟通制定一些规范和讨论需求，优化项目中大量图片展示/操作占用大量内存所引起的内存不足而崩溃，阅读Android官方文档、系统学习单元测试和自定义View。
+##### 结婚小秘书是为婚纱影楼行业客户服务，提供订单展示、进度通知、服务评价、婚姻登记处查询、喜帖/微相册制作分享，婚庆话题讨论、婚品购买，婚礼事宜流程、酒店预订等各项服务。
+
+#### 项目职责：
+
+* 负责项目的前期框架搭建，Beta版本开发测试打包混淆发布各应用市场
+* 对引入的开源框架进行抽象封装,自定义一些View
+* 不断重构解决项目需求变动频繁留下大量冗余代码和资源文件,优化布局文件,协同同事制定一些规范和讨论需求
+* 负责婚庆话题社区模块、在线选择摄影师模块、喜帖制作模块、结婚吉日模块、阿里妈妈婚品商城集成、优酷视屏播放集成，微信分享、支付宝/微信支付
+* 优化项目中大量图片展示/频繁操作图片所引起的内存不足而崩溃，排查解决内存泄漏大幅度降低OOM发生的几率，排查解决界面卡顿问题。
+* 适配Android M的Runtime Permission,使用FileProvider 适配Android N文件操作。
 
 ### 影楼大管家-Android客户端
 
-* 项目描述：影楼大管家是为婚纱影楼行业定制的ERP-CRM-OA软件，根据员工的权限给予不同的操作模块，提供开单、流程转交、任务安排、收银、业务统计、考勤、单点登录等功能
-* 项目职责：项目从零开始到版本迭代，个人全权负责Android客户端的开发。
-* 技术要点：项目中集成Jpush推送、Umeng统计、amap高德地图定位服务、 zxing扫码。SQLite本地保存数据,项目适配android7.0权限，运用主流的开源库retrofit2、rxjava、 gson、butterknife、glide等等。
-* 项目收获：开发工具从Eclipse转换成AndroidStudio，项目版本控制也从Svn换成Git,整个项目从无到有，开发也从业余到专业。从最开始的原始开发（网络请求HttpClient,手动JsonObject、 JsonArray解析json,手动管理SQLite）,到现在熟练的运用一些主流框架（butterknife,dagger,retrofit2,okhttp,rxjava,gson,glide）,以及自己写的开源库（加载更多的RecyclerView库[DragRecyclerView]、 选择图片和相册库[ImageSelector]），觉得自己的自信心和技术得到了很大提高。总之，这是一个痛苦并快乐的成长过程
+##### 影楼大管家是为婚纱影楼行业定制的ERP-CRM-OA软件，根据员工的权限给予不同的操作模块，提供开单、流程转交、任务安排、收银、业务统计、考勤、单点登录等功能
+
+#### 项目职责：
+
+* 项目从零开始到各版本迭代，个人全权负责Android客户端的开发。
+* 利用UUID+Jpush推送实现单点登录功能，使用了AES加密技术对所数据进行加密解密
+* 开发工具从Eclipse转换成AndroidStudio，项目版本控制也从Svn换成Git
+* 集成Jpush推送、Umeng统计、amap高德地图定位服务、 zxing扫码。
+* 适配Android M的Runtime Permission
 
 
 ### 其他项目
@@ -54,11 +65,11 @@ WEBSITE
 
 ## 芜湖时间图网络技术有限公司 （ 2014年2月 ~ 2014年11月 ）
 
-时间图-Android客户端
----
-"时间图"是一个集合大型信息的社交应用,以时间系统为主要特点,以百科类目、国家地域、事件人物为纬线，描绘“时间之图”。
+### 时间图-Android客户端
 
-#### 项目职责
+##### "时间图"是一个集合大型信息的社交应用,以时间系统为主要特点,以百科类目、国家地域、事件人物为纬线，描绘“时间之图”。
+
+#### 项目职责:
 
 * 引导页面完成了对SharePreference的存值与读取,使用了ViewPager + ViewPager + Fragment嵌套进行显示,部分UI界面绘制结合ButterKnife进行对界面资源的注入,使用ormlite管理SQLite存储信息以及增删改查
 * Activity和Fragment的生命周期以及以及数据交互,ormlite的使用以及数据库升级和数据备份
@@ -83,12 +94,12 @@ WEBSITE
 
 # 技能清单
 
-* Android开发框架：butterknife/dagger/retrofit2/okhttp/rxjava/gson/glide/Picasso
+* 熟悉butterknife/dagger/retrofit2/okhttp/rxjava/gson/glide/Picasso/facebook..各类Android开发框架
 * 开发工具：Eclipse/AndroidStudio
 * 数据库相关：SQLite
 * 版本管理、文档和自动化部署工具：Svn/Git
 * 单元测试：junit/mockito/espresso
-* 云和开放平台：微信支付分享/高德地图服务/Umeng统计/Jpush推送/支付宝支付/优酷视频播放/淘宝（阿里妈妈）商城
+* 熟悉Android事件分发机制，View绘制流程、自定义控件和动画等。
 
 致谢
 
