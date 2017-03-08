@@ -55,10 +55,10 @@ WEBSITE
 
 ### 时间图-Android客户端
 
-项目描述："时间图"是一个集合大型信息的社交应用,以时间系统为主要特点,以百科类目、国家地域、事件人物为纬线，描绘“时间之图”。
-项目职责：引导页面完成了对SharePreference的存值与读取,使用了ViewPager + ViewPager + Fragment嵌套进行显示,部分UI界面绘制结合ButterKnife进行对界面资源的注入,使用ormlite管理SQLite存储信息以及增删改查
-技术要点：Activity和Fragment的生命周期以及以及数据交互,ormlite的使用以及数据库升级和数据备份
-项目收获：巩固了Java基础知识、 数据库基础知识、Android基础知识、服务器端开发知识。
+* 项目描述："时间图"是一个集合大型信息的社交应用,以时间系统为主要特点,以百科类目、国家地域、事件人物为纬线，描绘“时间之图”。
+* 项目职责：引导页面完成了对SharePreference的存值与读取,使用了ViewPager + ViewPager + Fragment嵌套进行显示,部分UI界面绘制结合ButterKnife进行对界面资源的注入,使用ormlite管理SQLite存储信息以及增删改查
+* 技术要点：Activity和Fragment的生命周期以及以及数据交互,ormlite的使用以及数据库升级和数据备份
+* 项目收获：巩固了Java基础知识、 数据库基础知识、Android基础知识、服务器端开发知识。
 
 ---
 
