@@ -23,7 +23,7 @@ WEBSITE
 * 技术博客：https://yougaking.github.io
 * GitHub：https://github.com/YougaKing
 * 期望职位：Android开发工程师
-* 期望薪资：税前月薪9k~12k
+* 期望薪资：税前月薪10k~12k
 * 期望城市：西安
 
 ---
