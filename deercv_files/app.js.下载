@@ -32,7 +32,7 @@ angular.module('deerResume', ['ngRoute','wiz.markdown','ngNotify','ui.router','j
 
 	})
 .run(function($rootScope){
-	 $rootScope.title="萌鹿简历";
+	 $rootScope.title="个人简历";
 })
 .controller('dealRequestCtrl',function($scope,$stateParams,$jd,ngNotify){
 	if(!$stateParams.weixin_openid || !$stateParams.request_id)
@@ -109,7 +109,7 @@ angular.module('deerResume', ['ngRoute','wiz.markdown','ngNotify','ui.router','j
 	$jd.get("resume/getContent?domain="+domain+"&token="+token+"&pwd="+pwd).success(function(data){
 		$scope.loading=false;
 		$rootScope.resume = $scope.resume = data;
-		$rootScope.title=data.title+" by 萌鹿简历";
+		$rootScope.title=data.title+" by 个人简历";
 		//$.getScript('./ghostdown/js/ghostdown.js');
 	});
 })
@@ -151,7 +151,7 @@ angular.module('deerResume', ['ngRoute','wiz.markdown','ngNotify','ui.router','j
 		else
 		{
 			$scope.resume = data;
-			$rootScope.title=data.title+" by 萌鹿简历";
+			$rootScope.title=data.title+" by 个人简历";
 			$timeout(function(){
 				ghostdown_run(jQuery, Showdown, CodeMirror);
 				$('.CodeMirror').height(view_height-20);
