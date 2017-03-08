@@ -1,7 +1,9 @@
-简介
+WEBSITE
 ---
 
-在线地址：[https://yougaking.github.io/Resume/](https://yougaking.github.io/Resume/)
+* GitHub：[https://yougaking.github.io/Resume/](https://yougaking.github.io/Resume/)
+* OsChina：[http://ailisex.oschina.io/resume/](http://ailisex.oschina.io/resume/)
+
 
 个人简历
 ---
