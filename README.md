@@ -44,6 +44,8 @@ WEBSITE
 * 负责婚庆话题社区模块、在线选择摄影师模块、喜帖制作模块、结婚吉日模块、阿里妈妈婚品商城集成、优酷视屏播放集成，微信分享、支付宝/微信支付
 * 优化项目中大量图片展示/频繁操作图片所引起的内存不足而崩溃，排查解决内存泄漏大幅度降低OOM发生的几率，排查解决界面卡顿问题。
 * 适配Android M的Runtime Permission,使用FileProvider 适配Android N文件操作。
+* http升级https双向认证,采用AES对数据加密解密以及CRC校验
+* 利用AIDL加文件共享与影楼大管家之间通讯,结婚小秘书评价时判定是否可能是员工身份,记录评价次数并上传可疑员工信息至服务端
 
 ### 影楼大管家-Android客户端
 
@@ -52,10 +54,12 @@ WEBSITE
 #### 项目职责：
 
 * 项目从零开始到各版本迭代，个人全权负责Android客户端的开发。
-* 利用UUID+Jpush推送实现单点登录功能，使用了AES加密技术对所数据进行加密解密
+* 利用UUID+Jpush推送实现单点登录功能，统一登录异常验证机制
 * 开发工具从Eclipse转换成AndroidStudio，项目版本控制也从Svn换成Git
 * 集成Jpush推送、Umeng统计、amap高德地图定位服务、 zxing扫码。
-* 适配Android M的Runtime Permission
+* 适配Android M的Runtime Permission,使用FileProvider 适配Android N文件操作。
+* http升级https双向认证,采用AES对数据加密解密以及CRC校验
+* 利用AIDL加文件共享与结婚小秘书之间通讯,结婚小秘书评价时判定是否可能是员工身份,记录评价次数并上传可疑员工信息至服务端
 
 
 ### 其他项目
